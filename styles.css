@@ -1,0 +1,23 @@
+:root{
+    --gridSize: 1;
+}
+
+
+#container{
+    margin: auto;
+    margin-top: 2em;
+    border: solid 5px red;
+    border-radius: 5px;
+    width: 35vw;
+    height: 35vw;
+    display: grid;
+    grid-template-columns: repeat(var(--gridSize),1fr);
+    grid-template-rows: repeat(var(--gridSize),1fr);
+}
+
+#reset{
+    display: block;
+    padding: 0.5em 2em;
+    margin: auto;
+    margin-top: 2em;
+}
